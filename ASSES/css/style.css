@@ -1,0 +1,10 @@
+body{
+    background: url(ASSES/img/wakanda.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#RE{
+    background-color: orange;
+    width: 100%;
+}
