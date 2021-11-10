@@ -3,53 +3,61 @@
 <head>
     <meta charset=”UTF-8″ />
     <link href="ASSES/css/style.css" rel="stylesheet" type="text/css">
+    <link href="ASSES/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="ASSES/css/bootstrap.css" rel="stylesheet" type="text/css">
     <title>Formulario Sena</title>
 </head>
-<body>
+<body class="Container" background="ASSES/img/was.jpg" style="background-size: 100%;">
+  <div class="Cont">
     <!--Header-->
-    <div class="container">
+    <div>
         <div class="row">
             <div class="col-sm" id="RE">
-                <h4>Registro Estudiante SENA</h4>
+                <h4 style="text-align: center;">Registro Estudiante SENA</h4>
             </div>
         </div>
-    </div>
-
+    </div><br>
+  
     <!-- First Name and Last Name -->
     <form>
         <div class="row">
           <div class="col">
-            <font style="vertical-align: inherit;">First Name</font><br>
+            <font style="vertical-align: inherit;" class="First">First Name</font><br>
             <input type="text" class="form-control" placeholder="First name">
           </div>
+
           <div class="col">
             <font style="vertical-align: inherit;">Last Name</font><br>
             <input type="text" class="form-control" placeholder="Last name">
           </div>
         </div>
-      </form>
+      </form><br>
 
-      <!-- Selection -->
-      <font style="vertical-align: inherit;">Tipo de Documento</font><br>
+      <!-- Selection Document -->
+      <font style="vertical-align: inherit;">Document type</font><br>
       <select class="custom-select">
-        <option selected>Tipo de Documento</option>
+        <option selected>Document type</option>
         <option value="1">Cedula de Ciudadania</option>
         <option value="2">Tarjeta de Identidad</option>
         <option value="3">Cedula Extranjera</option>
         <input type="text" class="form-control-file">
-      </select>
+      </select><br>
 
-      <!-- Correo -->
+      <!-- E-mail -->
       <div class="form-group">
-        <label for="exampleFormControlInput1">Email address</label><br>
-        <input type="email" class="form-control-file" id="exampleFormControlInput1" placeholder="name@example.com">
+        <label for="exampleFormControlInput1">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       </div>
 
-      <!-- Comentario u Observacion-->
+      <!-- Comment or Observation -->
       <div class="form-group">
-        <label for="exampleFormControlTextarea1">Observaciones</label><br>
-        <textarea class="form-control-file" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label for="exampleFormControlTextarea1">Comment</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
-      <button class="btn btn-primary" type="submit">Submit form</button>
+      <button class="btn btn-primary" type="submit">Send</button>
+    </div>
+
+    <script src="ASSES/Js/bootstrap.min.js"></script>
+    <script src="ASSES/Js/bootstrap.js"></script>
 </body>
 </html>
