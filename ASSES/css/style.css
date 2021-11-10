@@ -17,7 +17,7 @@ body{
 .Container{
     color: white;
     margin: auto;
-    padding:auto;
+    padding: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
